@@ -10,7 +10,7 @@ class ReadMyMail():
         print( "Initializing the mail account")
         self.mail_account = "gmail.com"
         self.user_id = "rohitaarp" + self.mail_account
-        password = "password    "
+        password = "password"
         self.password = base64.b64encode(bytes(password, 'utf-8'))
        #Encode the password in base64
         self.smtp_server = "imap.gmail.com"
